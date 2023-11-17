@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "Rubik", sans-serif;
+}
+
+.logo {
+    margin: 25px 0 15px 0;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+#make-subscription{
+    background: linear-gradient(0, white 63%, white 63%, #FEC524 63%);
+}
+
+.nav-items p {
+    color: #99A2AA;
+    font-size: 16px;
+    margin-right: 29.63px;
+}
+
+#make-subscription h2 {
+    color: #FFF;
+    font-size: 44px;
+    margin: 0;
+    padding: 54px 0 10px;
+}
+
+#make-subscription p {
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+#make-subscription input {
+    width: 538px;
+    height: 64px;
+    border-radius: 10px;
+    border: none;
+    margin: 60px 0 0 0;
+    padding-left: 30px;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    box-shadow: 0 3px 35px 0 rgba(95, 98, 102, 0.17);
+}
+
+.wrapper-postal-services{
+    display: flex;
+    margin-top: 45.5px;
+    margin-bottom: 70px;
+}
+
+.buttons-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.make-subscription-button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    width: 270px;
+    height: 80px;
+    background-color: white;
+    margin: 20px 0 0 0;
+    border-radius: 10px;
+    box-shadow: 0 3px 35px 0 rgba(95, 98, 102, 0.17);
+}
+
+.make-subscription-button p{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 0 0 15px;
+    color: #99A2AA;
+    font-weight: 700;
+}
+
+.make-subscription-button a{
+    text-decoration-line: none;
+}
+
+.make-subscription-button svg{
+    padding-right: 20px;
+}
+
+.postal-services-info{
+    display: flex;
+    background-color: white;
+    width: 415px;
+}
+
+.postal-services-info h1 {
+    display: flex;
+    color: #0E2F4B;
+    font-size: 48px;
+    padding: 21px 0 0 0;
+    margin: 8px 215px 15px 0;
+}
+
+.postal-services-info p{
+    display: flex;
+    color: #0E2F4B;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.postal-services-options {
+    display: flex;
+    background-color: white;
+    width: 730px;
+    margin-left: 15px;
+    flex-wrap: wrap;
+}
+
+#postal-services{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    margin-top: 50px;
+
+}
+
+.postal-services-options h3{
+    color: #0E2F4B;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 13px;
+}
+
+.postal-services-options p{
+    color: #0E2F4B;
+    margin-right: 90px;
+    font-weight: 700;
+    font-size: 14px !important;
+    margin-top: 0 !important;
+}
+
+.postal-services-options span{
+    font-weight: 900;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.postal-services-options .single-option{
+    width: 50%;
+    margin-bottom: 70px;
+}
+
+#start-business{
+    width: 100%;
+    height: 630px;
+    background-color: #042C4B;
+}
+
+#start-business h2{
+    font-size: 48px;
+    color: #F8F8F8;
+    padding-top: 140px;
+}
+
+#start-business p{
+    color: #99A2AA;
+    line-height: 2;
+    margin-top: -10px;
+}
+
+#start-business button{
+    background-color: #FDC13D;
+    display: flex;
+    width: 290px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+
+#start-business a{
+    color: #0E2F4B;
+    text-decoration-line: none;
+}
+
+#financial-services{
+    width: 100%;
+    height: 720px;
+}
+
+.charity {
+    width: 100%;
+    background-color: #FDC13D;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-left: 80px;
+    box-sizing: border-box;
+}
+
+#financial-services h4 {
+    margin-top: 100px;
+    font-size: 48px;
+    color: #0E2F4B;
+    font-weight: 700;
+}
+
+#financial-services .charity h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: #0E2F4B;
+    padding-top: 50px;
+}
+
+.charity p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E2F4B;
+    margin-top: -15px;
+    margin-bottom: -12px;
+}
+
+.charity h5{
+    font-size: 16px;
+    font-weight: 700;
+    color: #0E2F4B;
+    padding-bottom: 40px;
+}
+
+.financial-services-option{
+    display: flex;
+    margin-top: -40px;
+}
+
+.financial-option{
+    width: 270px;
+    color: #0E2F4B;
+    margin-right: 30px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+#financial-services .financial-option h4{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.financial-option p{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#find-index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #0E2F4B;
+}
+
+#find-index h4{
+    font-size: 48px;
+    font-weight: 700;
+    color: #F8F8F8;
+    margin-top: 160px;
+}
+
+#find-index p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #99A2AA;
+    margin-top: -33px;
+    line-height: 30px;
+}
+
+#find-index input{
+    width: 450px;
+    height: 72px;
+    border-radius: 10px;
+    border: 1px solid #E8EBEE;
+    background: #FFF;
+    margin-right: 5px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    padding-left: 30px;
+    font-weight: 400;
+    margin-top: 60px;
+}
+
+#find-index button{
+    width: 244px;
+    height: 76px;
+    border-radius: 10px;
+    background-color: #FDC13D;
+    border: none;
+    margin-bottom: 160px;
+}
+
+#find-index a{
+    text-decoration-line: none;
+    font-size: 20px;
+    color: #0E2F4B;
+    font-weight: 700;
+}
